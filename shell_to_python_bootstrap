@@ -5,6 +5,7 @@
 # file as a Python script, passing along all of the command line arguments.
 # When this file is executed as a Python script, it executes as python normally.
 # This is useful because we don't know the name of the python binary.
+# Credit to Git user hyperb1iss for this one.
 
 ''':' # begin python string; this line is interpreted by the shell as `:`
 command -v python  >/dev/null 2>&1 && exec python  "$0" "$@"
